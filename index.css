@@ -317,8 +317,8 @@ html {
   margin: 0;
 }
 
-.home-feature1-reversed {
-  flex-direction: row-reverse;
+.home-main .home-feature1.home-feature1-reversed {
+  flex-direction: row-reverse !important;
 }
 
 .home-feature2 {
@@ -439,8 +439,8 @@ html {
   }
 
   .home-feature1,
-  .home-feature1-reversed {
-    flex-direction: column;
+  .home-main .home-feature1.home-feature1-reversed {
+    flex-direction: column !important;
     padding: var(--dl-layout-space-halfunit) var(--dl-layout-space-doubleunit);
   }
 
