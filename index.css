@@ -448,6 +448,7 @@ html {
   .home-feature-image {
     width: 100%;
     height: auto;
+    min-height: unset;
     padding: var(--dl-layout-space-unit) var(--dl-layout-space-unit) 0 var(--dl-layout-space-unit);
   }
 
