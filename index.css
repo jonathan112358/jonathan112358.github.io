@@ -633,12 +633,13 @@ html {
   height: 540px;
   display: flex;
   overflow: hidden;
-  align-items: center;
+  align-items: flex-start;
   border-radius: var(--border-radius);
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   background-color: var(--background-grey);
   margin: 0;
+  padding: var(--dl-layout-space-unit) var(--dl-layout-space-unit) 0 var(--dl-layout-space-unit);
 }
 
 .home-feature-content {
