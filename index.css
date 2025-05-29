@@ -448,12 +448,14 @@ html {
 
   .home-feature-image {
     width: 100%;
-    height: auto;
+    height: fit-content;
     min-height: unset;
     max-height: unset;
     padding: var(--dl-layout-space-unit) var(--dl-layout-space-unit) 0 var(--dl-layout-space-unit);
     flex: none;
     display: block;
+    align-self: flex-start;
+    position: relative;
   }
 
   .home-image3 {
@@ -463,6 +465,8 @@ html {
     max-width: 280px;
     max-height: none;
     margin: 0 auto;
+    position: relative;
+    align-self: center;
   }
 
   .home-feature-content {
